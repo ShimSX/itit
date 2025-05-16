@@ -6,8 +6,9 @@ export default function ExperienceSection() {
     <section id="experience" className="py-20 px-6 md:px-12 lg:px-24 bg-background">
       <div className="container mx-auto max-w-5xl animate-on-scroll">
         <div className="mb-4 inline-block">
-          <span className="text-sm bg-accent/10 text-accent px-3 py-1 rounded-full">
+          <span className="text-sm bg-accent/10 text-accent px-3 py-1 rounded-full inline-flex items-center">
             My Journey
+            <img src="/favicon-32x32.png" alt="favicon" style={{ height: '1.25rem', width: '1.25rem', marginLeft: '0.5rem' }} />
           </span>
         </div>
         <h2 className="text-3xl md:text-4xl font-bold mb-12 font-poppins">

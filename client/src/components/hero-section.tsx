@@ -19,8 +19,9 @@ export default function HeroSection() {
     >
       <div className="container mx-auto max-w-5xl animate-fade-in">
         <div className="mb-6 inline-block">
-          <span className="text-sm bg-accent/10 text-accent px-3 py-1 rounded-full">
+          <span className="text-sm bg-accent/10 text-accent px-3 py-1 rounded-full inline-flex items-center">
             IT Professional
+            <img src="/favicon-32x32.png" alt="favicon" style={{ height: '1.25rem', width: '1.25rem', marginLeft: '0.5rem' }} />
           </span>
         </div>
         <h1 className="text-4xl md:text-6xl font-bold mb-4 font-poppins leading-tight">
