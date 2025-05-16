@@ -77,7 +77,7 @@ export default function ContactSection() {
                       <Icon.LinkedIn className="h-6 w-6" />
                     </a>
                     <a
-                      href="https://github.com/"
+                      href="https://github.com/ShimSX"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="h-12 w-12 rounded-full bg-accent/10 flex items-center justify-center hover:bg-accent/30 transition-all"
