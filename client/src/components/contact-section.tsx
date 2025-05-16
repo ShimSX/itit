@@ -59,7 +59,7 @@ export default function ContactSection() {
                   <h4 className="font-medium mb-2">Social</h4>
                   <div className="flex gap-4 mt-2">
                     <a
-                      href="https://x.com/ShimonShn"
+                      href="https://x.com/elonmusk"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="h-12 w-12 rounded-full bg-accent/10 flex items-center justify-center hover:bg-accent/30 transition-all"
