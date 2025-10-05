@@ -36,10 +36,10 @@ export const experience = [
 ];
 
 export const coreSkills = [
-  { name: "Network Technologies", percentage: 95 },
+  { name: "Networking", percentage: 95 },
   { name: "Cloud Platforms", percentage: 90 },
-  { name: "Operating Systems", percentage: 92 },
-  { name: "Security Tools", percentage: 85 },
+  { name: "Windows, MacOS, linux", percentage: 92 },
+  { name: "Cyber security", percentage: 85 },
   { name: "Monitoring Tools", percentage: 88 }
 ];
 
@@ -58,19 +58,19 @@ export const softSkills = [
 
 export const projects = [
   {
-    title: "Enterprise Network Upgrade",
+    title: "Big! network upgrade",
     imageUrl: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1050&q=80",
     description: "Led a comprehensive network infrastructure upgrade for 500+ users, implementing Aruba switches and Fortinet firewalls.",
     tags: ["Networking", "Security", "Infrastructure"]
   },
   {
-    title: "Help Desk Optimization",
+    title: "Better support service",
     imageUrl: "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg",
     description: "Streamlined help desk operations with proactive diagnostics, reducing resolution time by 40% and improving user satisfaction.",
     tags: ["IT Support", "Process Optimization", "User Experience"]
   },
   {
-    title: "Microsoft 365 Migration",
+    title: "Old to New",
     imageUrl: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1050&q=80",
     description: "Successfully migrated legacy systems to Microsoft 365, implementing Azure AD and optimizing SharePoint for improved collaboration.",
     tags: ["Cloud", "Microsoft 365", "Migration"]

@@ -66,7 +66,7 @@ export default function NavMenu() {
               onClick={handleNavClick}
               className="hover:text-accent transition-colors"
             >
-              Skills
+              "Skills"
             </a>
           </li>
           <li>

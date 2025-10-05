@@ -7,12 +7,12 @@ export default function ExperienceSection() {
       <div className="container mx-auto max-w-5xl animate-on-scroll">
         <div className="mb-4 inline-block">
           <span className="text-sm bg-accent/10 text-accent px-3 py-1 rounded-full inline-flex items-center">
-            My Journey
+            The rarest
             <img src="/favicon-32x32.png" alt="favicon" style={{ height: '1.25rem', width: '1.25rem', marginLeft: '0.5rem' }} />
           </span>
         </div>
         <h2 className="text-3xl md:text-4xl font-bold mb-12 font-poppins">
-          Professional <span className="text-accent">Experience</span>
+          Work <span className="text-accent">Experience</span>
         </h2>
 
         {/* Experience Timeline */}

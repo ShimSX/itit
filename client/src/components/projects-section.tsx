@@ -6,14 +6,13 @@ export default function ProjectsSection() {
       <div className="container mx-auto max-w-5xl animate-on-scroll">
         <div className="mb-4 inline-block">
           <span className="text-sm bg-accent/10 text-accent px-3 py-1 rounded-full inline-flex items-center">
-            Highlights
+            The best?
             <img src="/favicon-32x32.png" alt="favicon" style={{ height: '1.25rem', width: '1.25rem', marginLeft: '0.5rem' }} />
           </span>
         </div>
         <h2 className="text-3xl md:text-4xl font-bold mb-12 font-poppins">
-          Featured <span className="text-accent">Projects</span>
+          Boring <span className="text-accent">AI slop articles</span>
         </h2>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div

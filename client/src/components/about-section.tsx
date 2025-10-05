@@ -15,24 +15,25 @@ export default function AboutSection() {
           <div className="md:w-1/2">
             <div className="mb-4 inline-block">
               <span className="text-sm bg-accent/10 text-accent px-3 py-1 rounded-full">
-                About me
+                1 of 1
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 font-poppins">
-              Building <span className="text-accent">robust</span> IT infrastructures
+              That gets <span className="text-accent">shit done</span> 
             </h2>
             <p className="text-muted-foreground mb-4">
-              I'm an IT specialist with a passion for maintaining complex networks and resolving technical challenges. With over 6 years of comprehensive experience across diverse technologies, I've developed expertise in Microsoft 365, network security, and multi-platform support.
+            I'm Shimon, 6+ years in the IT game with a solid networking backround that was inhanced with system & pc skills along the way, 
             </p>
             <p className="text-muted-foreground mb-6">
-              My approach combines technical precision with proactive problem-solving to ensure seamless IT operations. I thrive in dynamic environments where I can leverage my skills to optimize systems and improve efficiency.
+              Being real, my abillity might be quick adaptability to new tech & enviorments which is important in growing teams & companies. 
+              AI AI AI AI AI
             </p>
             <div className="flex flex-wrap gap-4">
               <a
                 href="#experience"
                 className="text-accent hover:underline flex items-center gap-2 font-medium"
               >
-                View my experience
+                What have you done?
                 <ArrowRight className="h-5 w-5" />
               </a>
             </div>

@@ -7,7 +7,7 @@ export default function SkillsSection() {
       <div className="container mx-auto max-w-5xl animate-on-scroll">
         <div className="mb-4 inline-block">
           <span className="text-sm bg-accent/10 text-accent px-3 py-1 rounded-full inline-flex items-center">
-            Expertise
+            Unique
             <img src="/favicon-32x32.png" alt="favicon" style={{ height: '1.25rem', width: '1.25rem', marginLeft: '0.5rem' }} />
           </span>
         </div>

@@ -7,17 +7,17 @@ export default function ContactSection() {
       <div className="container mx-auto max-w-5xl animate-on-scroll">
         <div className="mb-4 inline-block">
           <span className="text-sm bg-accent/10 text-accent px-3 py-1 rounded-full inline-flex items-center">
-            Get in Touch
+            Your IT guy
             <img src="/favicon-32x32.png" alt="favicon" style={{ height: '1.25rem', width: '1.25rem', marginLeft: '0.5rem' }} />
           </span>
         </div>
         <h2 className="text-3xl md:text-4xl font-bold mb-12 font-poppins">
-          Let's <span className="text-accent">Connect</span>
+          Let's <span className="text-accent">talk</span>
         </h2>
 
         <div className="max-w-2xl mx-auto">
           <div className="p-8 bg-secondary rounded-2xl shadow-lg">
-            <h3 className="text-xl font-bold mb-8 text-center">Contact Information</h3>
+            <h3 className="text-xl font-bold mb-8 text-center"></h3>
 
             <div className="space-y-8">
               <div className="flex items-start gap-4">
