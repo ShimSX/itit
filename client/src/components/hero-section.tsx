@@ -52,7 +52,7 @@ export default function HeroSection() {
           ) : (
             <iframe
               className="w-full aspect-video rounded-lg shadow-lg"
-              src="https://www.youtube-nocookie.com/embed/lbbJQcPY1ZM?autoplay=1&controls=0&modestbranding=1&rel=0&showinfo=0&fs=0&iv_load_policy=3&disablekb=1&playsinline=1&cc_load_policy=3"
+              src="https://www.youtube-nocookie.com/embed/4ZnP0bsVbMI?autoplay=1&controls=0&modestbranding=1&rel=0&showinfo=0&fs=0&iv_load_policy=3&disablekb=1&playsinline=1&cc_load_policy=3"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />
