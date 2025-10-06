@@ -2,29 +2,10 @@ import { ArrowDown, Play } from "lucide-react";
 import { useRef, useState } from "react";
 
 export default function HeroSection() {
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [playing, setPlaying] = useState(false);
 
-  const togglePlayPause = async () => {
-    const video = videoRef.current;
-    if (video) {
-      if (video.paused) {
-        await video.play();
-        setIsPlaying(true);
-      } else {
-        video.pause();
-        setIsPlaying(false);
-      }
-    }
-  };
-
-  const handleEnded = () => {
-    const video = videoRef.current;
-    if (video) {
-      video.currentTime = 0;
-      video.pause();
-      setIsPlaying(false);
-    }
+  const handlePlay = () => {
+    setPlaying(true);
   };
 
   const handleScrollDown = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -57,28 +38,30 @@ export default function HeroSection() {
           Watch this video for some basic / boring information!
         </p>
         <div className="mb-6 max-w-2xl relative">
-          <video 
-            ref={videoRef}
-            className="w-full aspect-video rounded-lg shadow-lg cursor-pointer"
-            preload="metadata"
-            poster="/tmb.png"
-            onClick={togglePlayPause}
-            onPlay={() => setIsPlaying(true)}
-            onPause={() => setIsPlaying(false)}
-            onEnded={handleEnded}
-          >
-            <source src="/videos/vsl.mp4" type="video/mp4" />
-            Your browser does not support the video tag. 
-          </video>
-          {!isPlaying && (
-            <button
-              onClick={togglePlayPause}
-              className="absolute inset-0 flex items-center justify-center bg-black/20 hover:bg-black/30 transition-colors rounded-lg group"
-            >
-              <div className="bg-primary-foreground/90 hover:bg-primary-foreground rounded-full p-3 md:p-4 group-hover:scale-110 transition-transform">
-                <Play className="h-5 w-5 md:h-6 md:w-6 text-black ml-1" />
-              </div>
-            </button>
+          {!playing ? (
+            <>
+              <img 
+                src="/tmb.png"
+                alt="Video thumbnail"
+                className="w-full aspect-video rounded-lg shadow-lg object-cover cursor-pointer"
+                onClick={handlePlay}
+              />
+              <button
+                onClick={handlePlay}
+                className="absolute inset-0 flex items-center justify-center bg-black/20 hover:bg-black/30 transition-colors rounded-lg group"
+              >
+                <div className="bg-primary-foreground/90 hover:bg-primary-foreground rounded-full p-3 md:p-4 group-hover:scale-110 transition-transform">
+                  <Play className="h-5 w-5 md:h-6 md:w-6 text-black ml-1" />
+                </div>
+              </button>
+            </>
+          ) : (
+            <iframe
+              className="w-full aspect-video rounded-lg shadow-lg"
+              src="https://www.youtube-nocookie.com/embed/lbbJQcPY1ZM?autoplay=1&controls=0&modestbranding=1&rel=0&showinfo=0&fs=0&iv_load_policy=3&disablekb=1&playsinline=1&cc_load_policy=3"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           )}
         </div>
         <div className="flex flex-wrap gap-4">
