@@ -22,22 +22,16 @@ export default function HeroSection() {
   return (
     <header
       id="home"
-      className="relative min-h-[80vh] md:min-h-[90vh] flex flex-col justify-center px-6 md:px-12 lg:px-24 pt-16 md:pt-20"
+      className="relative min-h-[90vh] flex flex-col justify-center px-6 md:px-12 lg:px-24 pt-0"
     >
       <div className="container mx-auto max-w-5xl animate-fade-in">
-        <div className="mb-6 inline-block">
-          <span className="text-sm bg-accent/10 text-accent px-3 py-1 rounded-full inline-flex items-center">
-            Limited edition
-            <img src="/favicon-32x32.png" alt="favicon" style={{ height: '1.25rem', width: '1.25rem', marginLeft: '0.5rem' }} />
-          </span>
-        </div>
-        <h2 className="text-4xl md:text-6xl font-bold mb-4 font-poppins leading-tight">
+        <h2 className="text-3xl md:text-5xl font-bold mb-4 font-poppins leading-tight">
           Need a good <span className="text-accent">IT guy?</span>
         </h2>
         <p className="text-base md:text-lg text-white max-w-2xl mb-6">
           Watch this video for some basic / boring information!
         </p>
-        <div className="mb-6 max-w-2xl relative">
+        <div className="mb-6 max-w-full md:max-w-2xl relative">
           {!playing ? (
             <>
               <img 
