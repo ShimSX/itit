@@ -21,10 +21,10 @@ export default function AboutSection() {
             <h2 className="text-3xl md:text-4xl font-bold mb-6 font-poppins">
               That gets <span className="text-accent">shit done</span> 
             </h2>
-            <p className="text-muted-foreground mb-4">
+            <p className="text-white mb-4">
             I'm Shimon, 6+ years in the IT game with a solid networking backround that was inhanced with system & pc skills along the way, 
             </p>
-            <p className="text-muted-foreground mb-6">
+            <p className="text-white mb-6">
               Being real, my abillity might be quick adaptability to new tech & enviorments which is important in growing teams & companies. 
               AI AI AI AI AI
             </p>
