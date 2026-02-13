@@ -66,7 +66,25 @@ export default function NavMenu() {
               onClick={handleNavClick}
               className="hover:text-accent transition-colors text-sm tracking-wide uppercase"
             >
-              "Skills"
+              Skills
+            </a>
+          </li>
+          <li>
+            <a
+              href="#projects"
+              onClick={handleNavClick}
+              className="hover:text-accent transition-colors text-sm tracking-wide uppercase"
+            >
+              Projects
+            </a>
+          </li>
+          <li>
+            <a
+              href="#linkedin"
+              onClick={handleNavClick}
+              className="hover:text-accent transition-colors text-sm tracking-wide uppercase"
+            >
+              LinkedIn
             </a>
           </li>
           <li>
@@ -126,6 +144,24 @@ export default function NavMenu() {
                 className="block px-4 py-3 hover:bg-white/5 hover:text-accent rounded-lg transition-colors"
               >
                 Skills
+              </a>
+            </li>
+            <li>
+              <a
+                href="#projects"
+                onClick={handleNavClick}
+                className="block px-4 py-3 hover:bg-white/5 hover:text-accent rounded-lg transition-colors"
+              >
+                Projects
+              </a>
+            </li>
+            <li>
+              <a
+                href="#linkedin"
+                onClick={handleNavClick}
+                className="block px-4 py-3 hover:bg-white/5 hover:text-accent rounded-lg transition-colors"
+              >
+                LinkedIn
               </a>
             </li>
             <li>

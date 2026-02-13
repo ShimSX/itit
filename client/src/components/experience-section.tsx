@@ -6,11 +6,11 @@ export default function ExperienceSection() {
     <section id="experience" className="py-20 px-6 md:px-12 lg:px-24">
       <div className="container mx-auto max-w-6xl animate-on-scroll">
         <div className="mb-6 inline-flex items-center gap-3 glass-pill">
-          <span>The rarest</span>
+          <span>Where I've been</span>
           <img src="/favicon-32x32.png" alt="favicon" style={{ height: '1.1rem', width: '1.1rem' }} />
         </div>
         <h2 className="text-3xl md:text-5xl font-display font-semibold mb-12">
-          Work <span className="text-accent">Experience</span>
+          What I've <span className="text-accent">done</span>
         </h2>
 
         {/* Experience Timeline */}

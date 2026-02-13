@@ -15,24 +15,25 @@ export default function AboutSection() {
           </div>
           <div className="glass-card rounded-3xl p-8 md:p-10">
             <div className="mb-6">
-              <span className="glass-pill">1 of 1</span>
+              <span className="glass-pill">About Me</span>
             </div>
             <h2 className="text-3xl md:text-5xl font-display font-semibold mb-6">
-              That is <span className="text-accent">great?</span>
+              I'm the IT guy who gets <span className="text-accent">shit done</span>
             </h2>
             <p className="text-muted-foreground mb-4">
-              I'm Shimon, 6+ years in the IT game with a solid networking backround that was inhanced with system & pc skills along the way,
+              You know that person you call when everything's broken and you need it fixed yesterday? That's me.
+              Six years of keeping networks running, users happy, and managers from having panic attacks.
             </p>
             <p className="text-muted-foreground mb-6">
-              Being real, my abillity might be quick adaptability to new tech & enviorments which is important in growing teams & companies.
-              AI AI AI AI AI
+              Started in networking, learned everything else along the way. New tech? I figure it out. Weird problem?
+              I'll solve it. Your team needs someone who won't disappear when things get messy? I'm your guy.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
                 href="#experience"
                 className="text-accent hover:text-foreground flex items-center gap-2 font-medium"
               >
-                What have you done?
+                Check out what I've done
                 <ArrowRight className="h-5 w-5" />
               </a>
             </div>
